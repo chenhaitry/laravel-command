@@ -30,5 +30,9 @@
   },
   "autoload-dev": {
     "classmap": ["tests"]
-  }
+  },
+  "repositories": [
+    {"type": "composer", "url": "https://repo.packagist.com/try-chenhai/"},
+    {"packagist.org": false}
+  ]
 }
