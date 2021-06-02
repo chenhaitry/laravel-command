@@ -1,11 +1,12 @@
 <?php
 
-namespace Chenhitry\LaravelCommand;
+namespace Chenhaitry\LaravelCommand;
 
-use Illuminate\Support\ServiceProvider;
 use Chenhitry\LaravelCommand\Console\Commands\LaravelHelperCommand;
 use Chenhitry\LaravelCommand\Console\Commands\LaravelObserverCommand;
 use Chenhitry\LaravelCommand\Console\Commands\LaravelRepositoryCommand;
+use Illuminate\Support\ServiceProvider;
+
 
 class LaravelCommandServiceProvider extends ServiceProvider
 {
