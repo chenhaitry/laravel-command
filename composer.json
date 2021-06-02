@@ -10,11 +10,9 @@
       "email": "chenhaitry64@gmail.com"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "require": {
     "php": "^7.3 | ^8.0",
-    "illuminate/support": ">=5.1",
-    "illuminate/console": ">=5.1"
   },
   "support": {
     "issues": "https://github.com/chenhaitry/laravel-command/issues",
