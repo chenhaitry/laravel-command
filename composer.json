@@ -29,5 +29,15 @@
   "repositories": [
     {"type": "github", "url": "https://github.com/chenhaitry/laravel-command"},
     {"packagist.org": false}
-  ]
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0"
+    },
+    "laravel": {
+      "providers": [
+        "Chnehaitry\\LaravelCommand\\LaravelCommandServiceProvider"
+      ]
+    }
+  }
 }
