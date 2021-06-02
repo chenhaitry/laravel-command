@@ -1,6 +1,6 @@
 <?php
 
-namespace Chenhitry\LaravelCommand;
+namespace Chenhaitry\LaravelCommand;
 
 use Illuminate\Support\ServiceProvider;
 use Chenhitry\LaravelCommand\Console\Commands\LaravelHelperCommand;
