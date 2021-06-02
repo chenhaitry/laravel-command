@@ -1,0 +1,34 @@
+{
+  "name": "chenhaitry/laravel-command",
+  "description": "A sample laravel command",
+  "type": "library",
+  "homepage": "https://github.com/chenhaitry/laravel-command",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ChenhaiTry",
+      "email": "chenhaitry64@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.3 | ^8.0",
+    "illuminate/support": "^5.7.19",
+    "illuminate/console": "^5.7.19"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "support": {
+    "issues": "https://github.com/chenhaitry/laravel-command/issues",
+    "source": "https://github.com/chenhaitry/laravel-command"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chenhaitry\\LaravelCommand\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": ["tests"]
+  }
+}

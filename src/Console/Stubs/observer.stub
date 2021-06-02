@@ -1,0 +1,55 @@
+<?php
+/**
+ * @copyright Copyright (c) 2021. Chenhitry
+ * @author    Chenhitry <chenhaitry64@gmail.com>
+ * @link      https://github.com/chenhitry/laravel-command
+ */
+
+namespace DummyNamespace;
+
+use App\DummyClass;
+
+class DummyClassObserver
+{
+    /**
+     * Trigger Before Create a DummyClass
+     *
+     * @param DummyClass $model
+     */
+    public function creating(DummyClass $model){}
+
+    /**
+     * Trigger after create a DummyClass
+     *
+     * @param DummyClass $model
+     */
+    public function created(DummyClass $model){}
+
+    /**
+     * Trigger before update a DummyClass
+     *
+     * @param DummyClass $model
+     */
+    public function updating(DummyClass $model){}
+
+    /**
+     * Trigger after update a DummyClass
+     *
+     * @param DummyClass $model
+     */
+    public function updated(DummyClass $model){}
+
+    /**
+     * Trigger before delete a DummyClass
+     *
+     * @param DummyClass $model
+     */
+    public function deleting(DummyClass $model){}
+
+    /**
+     * Trigger after delete a DummyClass
+     *
+     * @param DummyClass $model
+     */
+    public function deleted(DummyClass $model){}
+}
